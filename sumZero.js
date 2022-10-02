@@ -30,23 +30,27 @@
 // time complexity: O(n^2)
 // space complexity: O(n)
 
-const string1 = 'The quick Brown fox jumps Over the lazy dog';
-const string2 = 'The quick fox jumps Over the lazy dog';
+// const string1 = 'The quick Brown fox jumps Over the lazy dog';
+// const string2 = 'The quick fox jumps Over the lazy dog';
 
-function isPangram(str) {
-  const letters = new Set();
-  [...str].forEach(i => {
-    if (/[a-zA-Z]/.test(i)) {
-      // Found letter - will add lowercase to set
-      letters.add(i.toLowerCase());
-    }
-  });
-  if (letters.size === 26) {
-    return true
-  } else {
-    return false;
-  }
-}
+// function isPangram(str) {
+//   const letters = new Set();
+//   [...str].forEach(i => {
+//     if (/[a-zA-Z]/.test(i)) {
+//       // Found letter - will add lowercase to set
+//       letters.add(i.toLowerCase());
+//     }
+//   });
+//   if (letters.size === 26) {
+//     return true
+//   } else {
+//     return false;
+//   }
+// }
 
-console.log(string1, isPangram(string1));
-console.log(string2, isPangram(string2));
+// console.log(string1, isPangram(string1));
+// console.log(string2, isPangram(string2));
+
+// time complexity:O(n)
+// space complexity:O(1) 
+
