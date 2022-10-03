@@ -54,3 +54,18 @@
 // time complexity:O(n)
 // space complexity:O(1) 
 
+// let longestWordCount = 0
+
+// function find_longest_word(arr) {
+//     for(i=0; i<arr.length; i++) {
+//         if(arr[i].length > longestWordCount){
+//            longestWordCount = arr[i].length
+//         }
+//     }
+//     return longestWordCount
+// }
+
+// console.log(find_longest_word(['hi', 'hey', 'hello','Maggie','yo','dan','california']))
+
+// time complexity: O(n^2)
+// space complexity: 0(1)
